@@ -5,7 +5,7 @@ function Home() {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-[#FBF5DD]">
+    <div className="min-h-screen bg-[#FBF5DD] background-lines">
       {/* Header */}
       <header className="bg-yellow-400 p-4 shadow-md">
         <div className="max-w-md mx-auto">
