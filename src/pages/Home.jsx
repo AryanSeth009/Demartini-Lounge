@@ -37,7 +37,7 @@ function Home() {
           </p>
         </div>
         <div
-          onClick={() => window.open("./foodmenu.pdf")}
+          onClick={() => window.open("./NewMenu.pdf")}
           className="relative rounded-xl overflow-hidden shadow-lg cursor-pointer hover:shadow-xl transition-shadow font-poppins font-sans"
         >
           <img
