@@ -41,7 +41,7 @@ function Home() {
           className="relative rounded-xl overflow-hidden shadow-lg cursor-pointer hover:shadow-xl transition-shadow font-poppins font-sans"
         >
           <img
-            src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
+            src="https://www.ramana-maharshi.org/wp-content/uploads/2024/01/mj_17170_1.jpg"
             alt="Foods"
             className="w-full h-48 object-cover"
           />
@@ -56,7 +56,7 @@ function Home() {
           className="relative rounded-xl overflow-hidden shadow-lg cursor-pointer hover:shadow-xl transition-shadow font-poppins font-sans"
         >
           <img
-            src="https://images.unsplash.com/photo-1544145945-f90425340c7e"
+            src="https://www.shutterstock.com/image-vector/alcoholic-cocktails-sketch-hand-drawn-600nw-1902649168.jpg"
             alt="Beverages"
             className="w-full h-48 object-cover"
           />
@@ -73,7 +73,7 @@ function Home() {
           className="relative rounded-xl  overflow-hidden shadow-lg cursor-pointer hover:shadow-xl transition-shadow font-poppins font-sans"
         >
           <img
-            src="https://images.unsplash.com/photo-1551024601-bec78aea704b"
+            src="https://png.pngtree.com/thumb_back/fh260/background/20230611/pngtree-cup-of-latte-on-wooden-table-image_2943328.jpg"
             alt="Desserts"
             className="w-full h-48 object-cover"
           />
