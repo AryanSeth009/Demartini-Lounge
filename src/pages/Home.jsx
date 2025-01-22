@@ -5,9 +5,9 @@ function Home() {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-[#fff] background-lines">
+    <div className="min-h-screen bg-[#FEFBF6] background-lines">
       {/* Header */}
-      <header className="bg-black flex h-24 w-full items-center align-middle shadow-md">
+      <header className="bg-[#100303] flex h-24 w-full items-center align-middle shadow-md">
         <div className=" mx-auto">
           {/* <h1 className="text-2xl font-bold text-gray-800">Foodies</h1> */}
           <img
@@ -46,7 +46,7 @@ function Home() {
             className="w-full h-48 object-cover"
           />
           <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/60 to-transparent">
-            <h2 className="text-white text-xl font-semibold">Foods Menu</h2>
+            <h2 className="text-white text-xl font-semibold font-poppins">Foods Menu</h2>
             <p className="text-white/80 text-sm">Order fresh meals</p>
           </div>
         </div>
