@@ -5,11 +5,16 @@ function Home() {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-[#FBF5DD] background-lines">
+    <div className="min-h-screen bg-[#fff] background-lines">
       {/* Header */}
-      <header className="bg-yellow-400 p-4 shadow-md">
-        <div className="max-w-md mx-auto">
-          <h1 className="text-2xl font-bold text-gray-800">Foodies</h1>
+      <header className="bg-black flex h-24 w-full items-center align-middle shadow-md">
+        <div className=" mx-auto">
+          {/* <h1 className="text-2xl font-bold text-gray-800">Foodies</h1> */}
+          <img
+            src="../../assets/LogoBg.png"
+            className="h-full w-[12rem]"
+            alt=""
+          />
           {/* <div className="mt-4">
             <input
               type="text"
@@ -22,9 +27,18 @@ function Home() {
 
       {/* Categories */}
       <main className="max-w-md mx-auto p-4 space-y-4">
+        <div>
+          <h2 className="text-4xl font-semibold text-center pb-6  ">
+            Our Menu
+          </h2>
+
+          <p className="text-black text-sm pb-8 text-center">
+            Drinks, bites, and brews – crafted to make every moment special.
+          </p>
+        </div>
         <div
           onClick={() => window.open("../../assets/foodmenu.pdf", "_blank")}
-          className="relative rounded-xl overflow-hidden shadow-lg cursor-pointer hover:shadow-xl transition-shadow"
+          className="relative rounded-xl overflow-hidden shadow-lg cursor-pointer hover:shadow-xl transition-shadow font-poppins font-sans"
         >
           <img
             src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
@@ -38,8 +52,8 @@ function Home() {
         </div>
 
         <div
-          onClick={() => window.open("path/to/your/beverages.pdf", "_blank")}
-          className="relative rounded-xl overflow-hidden shadow-lg cursor-pointer hover:shadow-xl transition-shadow"
+          onClick={() => window.open("../../assets/cafeMenu.pdf", "_blank")}
+          className="relative rounded-xl overflow-hidden shadow-lg cursor-pointer hover:shadow-xl transition-shadow font-poppins font-sans"
         >
           <img
             src="https://images.unsplash.com/photo-1544145945-f90425340c7e"
@@ -55,8 +69,8 @@ function Home() {
         </div>
 
         <div
-          onClick={() => window.open("path/to/your/desserts.pdf", "_blank")}
-          className="relative rounded-xl overflow-hidden shadow-lg cursor-pointer hover:shadow-xl transition-shadow"
+          onClick={() => window.open("", "_blank")}
+          className="relative rounded-xl  overflow-hidden shadow-lg cursor-pointer hover:shadow-xl transition-shadow font-poppins font-sans"
         >
           <img
             src="https://images.unsplash.com/photo-1551024601-bec78aea704b"
