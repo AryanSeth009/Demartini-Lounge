@@ -11,7 +11,7 @@ function Home() {
         <div className=" mx-auto">
           {/* <h1 className="text-2xl font-bold text-gray-800">Foodies</h1> */}
           <img
-            src="../../assets/LogoBg.png"
+            src="./LogoBg.png"
             className="h-full w-[12rem]"
             alt=""
           />
@@ -37,7 +37,7 @@ function Home() {
           </p>
         </div>
         <div
-          onClick={() => window.open("../../assets/foodmenu.pdf", "_blank")}
+          onClick={() => window.open("./foodmenu.pdf")}
           className="relative rounded-xl overflow-hidden shadow-lg cursor-pointer hover:shadow-xl transition-shadow font-poppins font-sans"
         >
           <img
@@ -52,7 +52,7 @@ function Home() {
         </div>
 
         <div
-          onClick={() => window.open("../../assets/cafeMenu.pdf", "_blank")}
+          onClick={() => window.open("./cafeMenu.pdf")}
           className="relative rounded-xl overflow-hidden shadow-lg cursor-pointer hover:shadow-xl transition-shadow font-poppins font-sans"
         >
           <img
@@ -69,7 +69,7 @@ function Home() {
         </div>
 
         <div
-          onClick={() => window.open("", "_blank")}
+          onClick={() => window.open("", )}
           className="relative rounded-xl  overflow-hidden shadow-lg cursor-pointer hover:shadow-xl transition-shadow font-poppins font-sans"
         >
           <img
